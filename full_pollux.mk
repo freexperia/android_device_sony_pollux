@@ -22,10 +22,6 @@
 #
 #
  
-# Torch
-PRODUCT_PACKAGES := \
-    Torch
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
@@ -40,4 +36,4 @@ PRODUCT_NAME := full_pollux
 PRODUCT_DEVICE := pollux
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := C6907
+PRODUCT_MODEL := SGP321
